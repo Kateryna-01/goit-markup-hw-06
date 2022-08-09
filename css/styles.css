@@ -574,6 +574,89 @@ margin-right: 70px;
 
 
 
+.email-form{
+        margin-left: 93px;
+}
+
+.email-box{
+        display: flex;
+}
+
+.input-email{
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        width: 358px;
+        height: 50px;
+        background-color: #2F303A;
+        margin-right: 12px;
+        padding-left: 16px;
+}
+
+.button-submit{
+        background: var(--color-link);
+        border: var(--color-link);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        border-color: transporant;
+        padding: 10px 28px;
+        width: 200px;
+        height: 50px;
+}
+.button-submit-icon{
+        fill: #FFFFFF;
+}
+
+.button-submit:hover,
+.button-submit:focus {
+        background-color: #188CE8;
+        cursor: pointer;
+}
+
+.submit-text{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        margin-right: 10px;
+}
+
+.input-email > .placeholder{
+        font-size: 16px;
+        line-height: 1.25;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+/*-------------------------MODAL---------------*/
+
+.label{
+        display: block;
+}
+
+.input-modal{
+        display: block;
+        position: relative;
+}
+.modal-input-icon{
+        position: absolute;
+        left: 12px;
+        
+}
+
+.feedback{
+        display: block;
+}
+
+
+
+
 
 /*-------------------------PORTFOLIO---------------*/
 
